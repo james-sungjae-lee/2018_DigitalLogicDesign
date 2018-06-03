@@ -1,0 +1,20 @@
+In file included from /Users/sungjae/dev/logic/TABULAR/Main.cpp:1:
+/Users/sungjae/dev/logic/TABULAR/TABULAR.h:13:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        bool minterms[65] = { false, };
+                          ^
+1 warning generated.
+Undefined symbols for architecture x86_64:
+  "List::CompareData(int, int, int)", referenced from:
+      _main in Main-bd2e59.o
+  "List::AddData(int, int, int)", referenced from:
+      _main in Main-bd2e59.o
+  "List::checkList(int)", referenced from:
+      _main in Main-bd2e59.o
+  "List::printData(int)", referenced from:
+      _main in Main-bd2e59.o
+  "Result::deleteOverlap(int, int)", referenced from:
+      _main in Main-bd2e59.o
+  "Result::getEpi(int*, int, int, int)", referenced from:
+      _main in Main-bd2e59.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
